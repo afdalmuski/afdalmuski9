@@ -1,0 +1,90 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../Profile/gambar/bg.jpg);
+    
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 60px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    border: 1px solid;
+    background-image: url(../Profile/gambar/bg.jpg);
+    
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-right: 50px;
+    padding-bottom: 50x;
+
+}
+
+nav ul li {
+    float: right;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+a.tbl-home {
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+a.tbl-home:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+nav ul li a {
+    color: rgb(247, 247, 247);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+    text-decoration: none;
+    
+}
+
+
+
+.logo a {
+    float: left;
+    margin-left: 110px;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.logo a:hover {
+    color: white;
+    text-decoration: none;
+}
+
